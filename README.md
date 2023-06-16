@@ -41,10 +41,13 @@ To use this code, follow these steps:
 
 The code supports the following validation rules based on the class names assigned to the form fields:
 
-required: Marks a field as required and displays an error message if it's left empty.
-numbers-only: Allows only numeric values in the field and displays an error message if non-numeric characters are entered.
-letters-only: Allows only alphabetic characters in the field and displays an error message if non-alphabetic characters are entered.
-email-only: Validates that the field contains a valid email address using a simple regular expression pattern.
+- **required**: Marks a field as required and displays an error message if it's left empty.
+
+- **numbers-only**: Allows only numeric values in the field and displays an error message if non-numeric characters are entered.
+
+- **letters-only**: Allows only alphabetic characters in the field and displays an error message if non-alphabetic characters are entered.
+
+- **email-only**: Validates that the field contains a valid email address using a simple regular expression pattern.
 
 
 ## Contributing
