@@ -1,6 +1,6 @@
 # Form Validation
 
-This code snippet demonstrates a basic form validation implementation using JavaScript and jQuery. It validates various types of form fields such as required fields, number fields, letter fields, and email fields before submitting the form.
+This code snippet demonstrates a basic form validation implementation using jQuery. It validates various types of form fields such as required fields, number fields, letter fields, and email fields before submitting the form.
 
 ## Usage
 
