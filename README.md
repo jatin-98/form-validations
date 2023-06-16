@@ -6,13 +6,26 @@ This code snippet demonstrates a basic form validation implementation using Java
 
 To use this code, follow these steps:
 
-1. Include the jQuery library in your HTML file:
+1. Include the jQuery  in your HTML file:
 
 ```html
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-```
+```  
 
-2. Apply the necessary HTML markup to your form fields. Add the appropriate classes to the input elements to define their validation rules. For example:
+2. Add the JavaScript code to your file. You can either embed it within a <script> tag or link it from an external JavaScript file.
+
+   use the code of my file inside a script tag
+```html
+   <script>
+   // copy the code here
+   </script>
+```
+   or
+   ```html
+   <script src="path_to_file"></script>
+   ```
+
+3. Apply the necessary HTML markup to your form fields. Add the appropriate classes to the input elements to define their validation rules. For example:
 
 ```html
 <form>
@@ -36,3 +49,5 @@ email-only: Validates that the field contains a valid email address using a simp
 
 ## Contributing
 Contributions to improve or extend this form validation code are welcome. If you have any suggestions, bug fixes, or enhancements, please feel free to submit a pull request.
+
+
