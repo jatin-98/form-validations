@@ -1,6 +1,6 @@
 $("input[type='submit'], button[type='submit']").click(function (e) {
   e.preventDefault();
-  $(".invalid-feedback").remove();
+  $(".invalid-feedback").text('');
 
   var form = $(this).closest("form");
   var fields = form.find("select, textarea, input");
